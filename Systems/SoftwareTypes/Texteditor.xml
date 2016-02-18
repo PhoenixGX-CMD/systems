@@ -24,7 +24,7 @@
 				<Dependency Software="Operating System">Terminal</Dependency>
 			</Dependencies>
 		</Feature>
-		<Feature Forced="FALSE" Vital="FALSE">
+		<Feature Vital="TRUE">
 			<Name>Simple user interface</Name>
 			<Description>Provides a basic view to work with</Description>
 			<Category>2D</Category>
@@ -32,10 +32,49 @@
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
 			<Stability>0</Stability>
-			<CodeArt>0.5</CodeArt>
+			<CodeArt>0.7</CodeArt>
 			<Dependencies>
 				<Dependency Software="Operating System">GUI</Dependency>
 			</Dependencies>
+		</Feature>
+		<Feature From="Simple user interface" Vital="TRUE">
+			<Name>Nice user interface</Name>
+			<Description>Provides fancy views to work with</Description>
+			<Category>3D</Category>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">3D rendering</Dependency>
+			</Dependencies>
+		</Feature>
+		<!-- Following features may be included to the other office types aswell -->
+		<Feature>
+			<Name>Tabs</Name>
+			<Description>Opens several files in several tabs</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Text editor">Simple user interface</Dependency>
+				<Dependency Software="Operating System">Multitasking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Extension points</Name>
+			<Description>Others may want to include features, too</Description>
+			<Category>System</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>0</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
 		</Feature>
 	</Features>
 </SoftwareType>
