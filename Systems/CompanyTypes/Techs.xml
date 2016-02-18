@@ -1,0 +1,13 @@
+<CompanyType>
+	<Specialization>Technology</Specialization>
+	<PerYear>0.2</PerYear>
+	<Min>2</Min>
+	<Max>6</Max>
+	<Types>
+		<Type Software="Audio Driver">1</Type>
+		<Type Software="CPU Driver">1</Type>
+		<Type Software="GPU Driver">1</Type>
+		<Type Software="Network Driver">1</Type>
+		<Type Software="Framework">1</Type>
+	</Types>
+</CompanyType>

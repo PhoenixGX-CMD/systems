@@ -1,0 +1,88 @@
+<SoftwareType>
+	<Name>Framework</Name>
+	<Description>Help smaller companies by providing a development base</Description>
+	<Category>Technology</Category>
+	<Unlock>1990</Unlock>
+	<Random>0.4</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.7</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>FrameworkGenerator</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Utility</Name>
+			<Description>Software pieces everybody need</Description>
+			<DevTime>10</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>3</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Native support</Name>
+			<Description>Some OS related helpers</Description>
+			<Category>System</Category>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Views</Name>
+			<Description>Helps setting up the GUI quickly</Description>
+			<Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Views">
+			<Name>Advanced Views</Name>
+			<Description>Now in 3D</Description>
+			<Category>3D</Category>
+			<Unlock>2000</Unlock>
+			<DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0.6</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">3D rendering</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>Clean architecture</Name>
+			<Description>Developers will love your API</Description>
+			<DevTime>4</DevTime>
+			<Unlock>1995</Unlock>
+			<Innovation>1</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Remote procedures</Name>
+			<Description>Network based functions</Description>
+			<Unlock>1995</Unlock>
+			<Category>Network</Category>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>6</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
