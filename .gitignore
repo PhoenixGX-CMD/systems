@@ -1,2 +1,4 @@
 # eclipse structure
 .settings/
+.project
+.classpath
