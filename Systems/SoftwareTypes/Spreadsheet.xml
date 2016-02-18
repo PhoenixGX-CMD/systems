@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Spreadsheet tool</Name>
+	<Name>Spreadsheet Tool</Name>
 	<Description>Tool for defining spreadsheets</Description>
 	<Category>Tools</Category>
 	<Unlock>1985</Unlock>
@@ -22,7 +22,7 @@
 			<Stability>5</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependencies>
-				<Dependency Software="Operating system">Terminal</Dependency>
+				<Dependency Software="Operating System">Terminal</Dependency>
 			</Dependencies>
 		</Feature>
 		<Feature From="Structure">
@@ -71,7 +71,7 @@
 			<CodeArt>0.5</CodeArt>
 			<Dependencies>
 				<Dependency Software="Operating System">3D rendering</Dependency>
-				<Dependency Software="Spreadsheet tool">Multi dimensional tables</Dependency>
+				<Dependency Software="Spreadsheet Tool">Multi dimensional tables</Dependency>
 			</Dependencies>
 		</Feature>
 		<Feature>
@@ -83,7 +83,7 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependencies>
-				<Dependency Software="Spreadsheet tool">Two dimension table viewer</Dependency>
+				<Dependency Software="Spreadsheet Tool">Two dimension table viewer</Dependency>
 				<Dependency Software="Operating System">Multitasking</Dependency>
 			</Dependencies>
 		</Feature>
