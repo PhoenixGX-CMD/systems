@@ -1,0 +1,41 @@
+<SoftwareType>
+	<Name>Text editor</Name>
+	<Description>A tool for manipulating text files</Description>
+	<Category>Tools</Category>
+	<Random>0</Random>
+	<Popularity>0.6</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>TexteditorGenerator</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Basic processing</Name>
+			<Description>Features like open, edit, save and close.</Description>
+			<DevTime>10</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">Terminal</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="FALSE" Vital="FALSE">
+			<Name>Simple user interface</Name>
+			<Description>Provides a basic view to work with</Description>
+			<Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>0</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
