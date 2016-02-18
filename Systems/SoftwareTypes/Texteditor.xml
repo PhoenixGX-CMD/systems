@@ -50,7 +50,6 @@
 				<Dependency Software="Operating System">3D rendering</Dependency>
 			</Dependencies>
 		</Feature>
-		<!-- Following features may be included to the other office types aswell -->
 		<Feature>
 			<Name>Tabs</Name>
 			<Description>Opens several files in several tabs</Description>
