@@ -1,7 +1,7 @@
 <SoftwareType>
 	<Name>Text editor</Name>
 	<Description>A tool for manipulating text files</Description>
-	<Category>Tools</Category>
+	<Category>Office</Category>
 	<Random>0</Random>
 	<Popularity>0.6</Popularity>
 	<Retention>0.6</Retention>
