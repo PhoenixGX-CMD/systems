@@ -1,0 +1,32 @@
+<PersonalityGraph>
+	<Personalities>
+		<Personality>
+			<Name>Knowledge driven</Name>
+			<Aptitude>1</Aptitude>
+			<Leadership>-0.5</Leadership>
+			<Diligence>0</Diligence>
+			<Relationships>
+				<Relation Name="Extrovert">-0.5</Relation>
+				<Relation Name="Introvert">1</Relation>
+				<Relation Name="Optimistic">0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Business driven</Name>
+			<Aptitude>-0.5</Aptitude>
+			<Leadership>1</Leadership>
+			<Diligence>0</Diligence>
+			<Relationships>
+				<Relation Name="Flirt">-0.5</Relation>
+				<Relation Name="Generous">1</Relation>
+				<Relation Name="Pessimistic">0.5</Relation>
+			</Relationships>
+		</Personality>
+	</Personalities>
+	<Incompatibilities>
+		<Incompatible>
+			<Personality>Knowledge driven</Personality>
+			<Personality>Business driven</Personality>
+		</Incompatible>
+	</Incompatibilities>
+</PersonalityGraph>
