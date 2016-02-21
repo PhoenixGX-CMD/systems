@@ -1,0 +1,91 @@
+<SoftwareType>
+	<Name>Entertainment system</Name>
+	<Description>A suite with various consumer features</Description>
+	<Category>Software</Category>
+	<Unlock>1997</Unlock>
+	<Random>0.3</Random>
+	<Popularity>0.85</Popularity>
+	<Retention>0.75</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<NameGenerator>ToolNameGenerator</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Media library</Name>
+			<Description>Stores user content</Description>
+			<DevTime>14</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.75</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Music player</Name>
+			<Description>An embedded music player to listen to</Description>
+			<Category>Audio</Category>
+			<DevTime>7</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.75</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">8-bit audio</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Music player">
+			<Name>HD Music player</Name>
+			<Description>Support for high quality audio</Description>
+			<Category>Audio</Category>
+			<DevTime>10</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.75</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">HD audio</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Video player</Name>
+			<Description>An embedded player for videos</Description>
+			<Category>FeatureCategory</Category>
+			<DevTime>7</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.75</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">3D rendering</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Online store</Name>
+			<Description>Allows downloading content from server</Description>
+			<Category>Network</Category>
+			<DevTime>7</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.2</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Recovery</Name>
+			<Description>Allows system backups</Description>
+			<Category>System</Category>
+			<DevTime>5</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>2</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

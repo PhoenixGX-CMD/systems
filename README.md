@@ -13,6 +13,7 @@ Current software types. I'll try to kepp this list up to date.
 - Mailing Tool (since 1985, stay in contact)
 - System Management Tool (since 1985, another maintenance tool)
 - Rule engine (since 1995, prework for AI)
+- Entertainment system (since 1997, capsules media management in one software)
 - Artificial intelligence (since 2000, robot mind)
 - Automatic control system (since 2015, might replace administrators)
 
