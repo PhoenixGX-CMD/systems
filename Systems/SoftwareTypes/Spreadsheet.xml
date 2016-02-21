@@ -9,7 +9,7 @@
 	<Iterative>1</Iterative>
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>
-	<InHouse>TRUE</InHouse>
+	<InHouse>FALSE</InHouse>
 	<NameGenerator>SpreadsheetGenerator</NameGenerator>
 	<Needs></Needs>
 	<Features>

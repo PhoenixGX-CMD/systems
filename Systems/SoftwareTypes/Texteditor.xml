@@ -8,7 +8,7 @@
 	<Iterative>1</Iterative>
 	<OSSpecific>TRUE</OSSpecific>
 	<OneClient>FALSE</OneClient>
-	<InHouse>TRUE</InHouse>
+	<InHouse>FALSE</InHouse>
 	<NameGenerator>TexteditorGenerator</NameGenerator>
 	<Needs></Needs>
 	<Features>
