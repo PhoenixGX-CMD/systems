@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Central control system</Name>
+	<Name>Automatic control system</Name>
 	<Description>An independent system for controlling robots</Description>
 	<Category>Robotics</Category>
 	<Unlock>2015</Unlock>
