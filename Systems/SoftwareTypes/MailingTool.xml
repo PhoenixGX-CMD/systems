@@ -1,0 +1,78 @@
+<SoftwareType>
+	<Name>Mailing Tool</Name>
+	<Description>A communication program</Description>
+	<Category>Tools</Category>
+	<Unlock>1985</Unlock>
+	<Random>0.3</Random>
+	<Popularity>0.6</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>FALSE</InHouse>
+	<NameGenerator>ToolNameGenerator</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Messaging</Name>
+			<Description>Send and receive text messages</Description>
+			<Category>Network</Category>
+			<DevTime>10</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Messaging">
+			<Name>Binaries</Name>
+			<Description>Attach files to messages</Description>
+			<Category>Network</Category>
+			<Unlock>1990</Unlock>
+			<DevTime>16</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Binaries">
+			<Name>Previews</Name>
+			<Description>Embed pictures into the message</Description>
+			<Category>Network</Category>
+			<Unlock>1995</Unlock>
+			<DevTime>22</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Simple user interface</Name>
+			<Description>Provides a basic view to work with</Description>
+			<Category>2D</Category>
+			<DevTime>4</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Simple user interface">
+			<Name>Nice user interface</Name>
+			<Description>Provides fancy views to work with</Description>
+			<Category>3D</Category>
+			<DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">3D rendering</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

@@ -10,6 +10,7 @@ Current software types. I'll try to kepp this list up to date.
 - Framework (since 1990, making money by aiding devs)
 - Text editor (basic office tool to start with)
 - Spreadsheet (since 1985, office program for tables)
+- Mailing Tool (since 1985, stay in contact)
 - System Management Tool (since 1985, another maintenance tool)
 - Rule engine (since 1995, prework for AI)
 - Artificial intelligence (since 2000, robot mind)
