@@ -8,6 +8,5 @@
 		<Type Software="CPU Driver">1</Type>
 		<Type Software="GPU Driver">1</Type>
 		<Type Software="Network Driver">1</Type>
-		<Type Software="Framework">1</Type>
 	</Types>
 </CompanyType>
