@@ -1,11 +1,11 @@
 <SoftwareType>
 	<Name>Artificial intelligence</Name>
 	<Description>Brains for computers</Description>
-	<Category>Technology</Category>
+	<Category>Robotics</Category>
 	<Unlock>2000</Unlock>
 	<Random>0.3</Random>
-	<Popularity>0.4</Popularity>
-	<Retention>0.6</Retention>
+	<Popularity>0.6</Popularity>
+	<Retention>0.7</Retention>
 	<Iterative>1</Iterative>
 	<OSSpecific>FALSE</OSSpecific>
 	<OneClient>FALSE</OneClient>
