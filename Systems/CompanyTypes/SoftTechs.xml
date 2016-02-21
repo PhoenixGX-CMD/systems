@@ -5,8 +5,8 @@
 	<Max>8</Max>
 	<Types>
 		<Type Software="Framework">1</Type>
-		<Type Software="Rule engine">1</Type>
-		<Type Software="Artificial intelligence">1</Type>
-		<Type Software="Automatic control system">1</Type>
+		<Type Software="Rule Engine">1</Type>
+		<Type Software="Artificial Intelligence">1</Type>
+		<Type Software="Automatic Control System">1</Type>
 	</Types>
 </CompanyType>

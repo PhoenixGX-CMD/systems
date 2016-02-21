@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Automatic control system</Name>
+	<Name>Automatic Control System</Name>
 	<Description>An independent system for controlling robots</Description>
 	<Category>Robotics</Category>
 	<Unlock>2015</Unlock>
@@ -12,7 +12,7 @@
 	<InHouse>TRUE</InHouse>
 	<NameGenerator>EngineGenerator</NameGenerator>
 	<Needs>
-		<Name>Artificial intelligence</Name>
+		<Name>Artificial Intelligence</Name>
 	</Needs>
 	<Features>
 		<Feature Forced="TRUE">
@@ -37,7 +37,7 @@
 			<CodeArt>1</CodeArt>
 			<Server>0.06</Server>
 			<Dependencies>
-				<Dependency Software="Artificial intelligence">Self learning</Dependency>
+				<Dependency Software="Artificial Intelligence">Self learning</Dependency>
 			</Dependencies>
 		</Feature>
 		<Feature From="Advanced control">
@@ -51,7 +51,7 @@
 			<CodeArt>1</CodeArt>
 			<Server>0.09</Server>
 			<Dependencies>
-				<Dependency Software="Artificial intelligence">Distributed intelligence</Dependency>
+				<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
 			</Dependencies>
 		</Feature>
 		<Feature>
@@ -64,7 +64,7 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependencies>
-				<Dependency Software="Artificial intelligence">Self learning</Dependency>
+				<Dependency Software="Artificial Intelligence">Self learning</Dependency>
 			</Dependencies>
 		</Feature>
 		<Feature>
@@ -78,7 +78,7 @@
 			<CodeArt>1</CodeArt>
 			<Server>0.03</Server>
 			<Dependencies>
-				<Dependency Software="Artificial intelligence">Distributed intelligence</Dependency>
+				<Dependency Software="Artificial Intelligence">Distributed intelligence</Dependency>
 			</Dependencies>
 		</Feature>
 	</Features>

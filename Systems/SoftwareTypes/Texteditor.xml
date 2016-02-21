@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Text editor</Name>
+	<Name>Text Editor</Name>
 	<Description>A tool for manipulating text files</Description>
 	<Category>Office</Category>
 	<Random>0</Random>
@@ -59,7 +59,7 @@
 			<Stability>0</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependencies>
-				<Dependency Software="Text editor">Simple user interface</Dependency>
+				<Dependency Software="Text Editor">Simple user interface</Dependency>
 				<Dependency Software="Operating System">Multitasking</Dependency>
 			</Dependencies>
 		</Feature>

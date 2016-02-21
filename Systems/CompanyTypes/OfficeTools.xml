@@ -4,7 +4,7 @@
 	<Min>1</Min>
 	<Max>8</Max>
 	<Types>
-		<Type Software="Text editor">1</Type>
+		<Type Software="Text Editor">1</Type>
 		<Type Software="Spreadsheet Tool">1</Type>
 		<Type Software="System Management Tool">1</Type>
 		<Type Software="Mailing Tool">1</Type>

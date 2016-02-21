@@ -1,5 +1,5 @@
 <SoftwareType>
-	<Name>Artificial intelligence</Name>
+	<Name>Artificial Intelligence</Name>
 	<Description>Brains for computers</Description>
 	<Category>Robotics</Category>
 	<Unlock>2000</Unlock>
@@ -12,7 +12,7 @@
 	<InHouse>TRUE</InHouse>
 	<NameGenerator>EngineGenerator</NameGenerator>
 	<Needs>
-		<Name>Rule engine</Name>
+		<Name>Rule Engine</Name>
 	</Needs>
 	<Features>
 		<Feature Forced="TRUE">
@@ -35,7 +35,7 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependencies>
-				<Dependency Software="Rule engine">Fast processing</Dependency>
+				<Dependency Software="Rule Engine">Fast processing</Dependency>
 			</Dependencies>
 		</Feature>
 		<Feature From="Self learning">
@@ -48,7 +48,7 @@
 			<Stability>4</Stability>
 			<CodeArt>1</CodeArt>
 			<Dependencies>
-				<Dependency Software="Rule engine">Clustered knowledge</Dependency>
+				<Dependency Software="Rule Engine">Clustered knowledge</Dependency>
 			</Dependencies>
 		</Feature>
 	</Features>

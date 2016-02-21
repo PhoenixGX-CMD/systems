@@ -4,6 +4,6 @@
 	<Min>1</Min>
 	<Max>8</Max>
 	<Types>
-		<Type Software="Entertainment system">1</Type>
+		<Type Software="Entertainment System">1</Type>
 	</Types>
 </CompanyType>
