@@ -3,19 +3,19 @@ Systems is a mod for Software Inc by Coredumping. The mods adds new software & c
 
 # Software
 Current software types. I'll try to kepp this list up to date.
-- CPU driver (simple system based software type)
-- GPU driver (2D and 3D operating systems aswell)
-- Audio driver (featuring all audio features from OS)
-- Network driver (since 1985, network skill only)
+- CPU Driver (simple system based software type)
+- GPU Driver (2D and 3D operating systems aswell)
+- Audio Driver (featuring all audio features from OS)
+- Network Driver (since 1985, network skill only)
 - Framework (since 1990, making money by aiding devs)
-- Text editor (basic office tool to start with)
+- Text Editor (basic office tool to start with)
 - Spreadsheet (since 1985, office program for tables)
 - Mailing Tool (since 1985, stay in contact)
 - System Management Tool (since 1985, another maintenance tool)
-- Rule engine (since 1995, prework for AI)
-- Entertainment system (since 1997, capsules media management in one software)
-- Artificial intelligence (since 2000, robot mind)
-- Automatic control system (since 2015, might replace administrators)
+- Rule Engine (since 1995, prework for AI)
+- Entertainment System (since 1997, capsules media management in one software)
+- Artificial Intelligence (since 2000, robot mind)
+- Automatic Control System (since 2015, might replace administrators)
 
 # Company
 Currently I defined three types of companies, I think this should be fine.
