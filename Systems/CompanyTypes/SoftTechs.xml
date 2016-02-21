@@ -6,5 +6,6 @@
 	<Types>
 		<Type Software="Framework">1</Type>
 		<Type Software="Rule engine">1</Type>
+		<Type Software="Artificial intelligence">1</Type>
 	</Types>
 </CompanyType>

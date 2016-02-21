@@ -1,0 +1,54 @@
+<SoftwareType>
+	<Name>Artificial intelligence</Name>
+	<Description>Brains for computers</Description>
+	<Category>Technology</Category>
+	<Unlock>2000</Unlock>
+	<Random>0.3</Random>
+	<Popularity>0.4</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>FALSE</OSSpecific>
+	<OneClient>FALSE</OneClient>
+	<InHouse>TRUE</InHouse>
+	<NameGenerator>EngineGenerator</NameGenerator>
+	<Needs>
+		<Name>Rule engine</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Logic algorithm</Name>
+			<Description>Simulates intelligent behavior</Description>
+			<DevTime>12</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Logic algorithm">
+			<Name>Self learning</Name>
+			<Unlock>2010</Unlock>
+			<Description>This is the most important thing for true intelligence</Description>
+			<DevTime>24</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Rule engine">Fast processing</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature From="Self learning">
+			<Name>Distributed intelligence</Name>
+			<Description>Enables a much more complex behavior</Description>
+			<DevTime>36</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>5</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Rule engine">Clustered knowledge</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
