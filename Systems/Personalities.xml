@@ -22,11 +22,38 @@
 				<Relation Name="Pessimistic">0.5</Relation>
 			</Relationships>
 		</Personality>
+		<Personality>
+			<Name>Lazy</Name>
+			<Aptitude>-0.5</Aptitude>
+			<Leadership>0.75</Leadership>
+			<Diligence>-1</Diligence>
+			<Relationships>
+				<Relation Name="Business driven">-0.5</Relation>
+				<Relation Name="Naive">1</Relation>
+				<Relation Name="Optimistic">0.5</Relation>
+				<Relation Name="Diligent">-0.5</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Diligent</Name>
+			<Aptitude>0.5</Aptitude>
+			<Leadership>-1</Leadership>
+			<Diligence>0.5</Diligence>
+			<Relationships>
+				<Relation Name="Lazy">-1</Relation>
+				<Relation Name="Generous">1</Relation>
+				<Relation Name="Knowledge driven">0.5</Relation>
+			</Relationships>
+		</Personality>
 	</Personalities>
 	<Incompatibilities>
 		<Incompatible>
 			<Personality>Knowledge driven</Personality>
 			<Personality>Business driven</Personality>
+		</Incompatible>
+		<Incompatible>
+			<Personality>Lazy</Personality>
+			<Personality>Diligent</Personality>
 		</Incompatible>
 	</Incompatibilities>
 </PersonalityGraph>
