@@ -52,7 +52,7 @@
 		<Feature>
 			<Name>Video player</Name>
 			<Description>An embedded player for videos</Description>
-			<Category>FeatureCategory</Category>
+			<Category>3D</Category>
 			<DevTime>7</DevTime>
 			<Innovation>4</Innovation>
 			<Usability>2</Usability>
