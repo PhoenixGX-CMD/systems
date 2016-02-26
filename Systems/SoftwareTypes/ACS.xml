@@ -19,6 +19,7 @@
 			<Name>Basic control</Name>
 			<Description>Controls robot's main routine</Description>
 			<DevTime>16</DevTime>
+			<Category>Robotics</Category>
 			<Innovation>6</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
@@ -29,6 +30,7 @@
 		<Feature From="Basic control">
 			<Name>Advanced control</Name>
 			<Description>Additional routine control</Description>
+			<Category>Robotics</Category>
 			<Unlock>2020</Unlock>
 			<DevTime>26</DevTime>
 			<Innovation>6</Innovation>
@@ -43,6 +45,7 @@
 		<Feature From="Advanced control">
 			<Name>Supervising control</Name>
 			<Description>Allows control of big robot networks</Description>
+			<Category>Robotics</Category>
 			<Unlock>2025</Unlock>
 			<DevTime>36</DevTime>
 			<Innovation>6</Innovation>
@@ -70,7 +73,7 @@
 		<Feature>
 			<Name>Supervisor</Name>
 			<Description>Makes the ACS completely independent</Description>
-			<Category>FeatureCategory</Category>
+			<Category>Robotics</Category>
 			<DevTime>10</DevTime>
 			<Innovation>6</Innovation>
 			<Usability>4</Usability>
